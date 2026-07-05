@@ -20,6 +20,16 @@
 **/.env.*
 !**/.env.example
 
+# Kubernetes secrets and local env overrides
+**/*-secret.yaml
+**/*-secret.yml
+**/secret*.yaml
+**/secret*.yml
+**/local-*.yaml
+**/local-*.yml
+**/*.env.yaml
+**/*.env.yml
+
 # Logs
 **/*.log
 
