@@ -9,4 +9,4 @@ data:
   NODE_ENV: production
   REDIS_HOST: redis
   REDIS_PORT: "6379"
-  CLIENT_URL: http://localhost:3000
+  CLIENT_URL: http://client.task-platform.svc.cluster.local:3000
